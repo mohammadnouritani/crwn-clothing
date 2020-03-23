@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import HomePage from './homepage.comonent';
+import HomePage from './pages/homepage.comonent';
 class App extends React.Component {
-  constructor(){
+  constructor() {
     super();
-   this.state={hello:'hello world' }
+    this.state = { hello: 'hello world' }
   }
-  render(){
-  return (
-    <div className="App">
-    <HomePage/>
-    </div>
-  );
-}
+  render() {
+    return (
+      <div className="App">
+        <HomePage />
+      </div>
+    );
+  }
 
 }
 
