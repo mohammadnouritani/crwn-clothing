@@ -4,13 +4,15 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-  
+    .logo-section{
+      width: 50%;
     .logo-container {
       height: 100%;
       width: 70px;
       padding: 0px 25px 25px 25px;
+      box-sizing: content-box;
     }
-  
+    }
     .options {
       width: 50%;
       height: 100%;
@@ -22,6 +24,23 @@
         padding: 10px 15px;
         font-size: 20px;
         cursor: pointer;
+      
+      }
+      .Sign-out-block{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .profileImg{
+        display: block;
+        margin: 0;
+        position: relative;
+        height: 32px;
+        width: 32px;
+        z-index: 0;
+        border-radius: 50%;
+        align-self: center;
+        margin: 10px 15px;
       }
     }
   }

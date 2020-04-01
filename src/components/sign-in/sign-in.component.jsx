@@ -39,7 +39,7 @@ class SignIn extends React.Component {
             required
             label="email"
           />
-
+            
           <FormInput
             name="password"
             type="password"
